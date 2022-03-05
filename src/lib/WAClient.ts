@@ -245,7 +245,5 @@ export enum toggleableGroupActions {
     safe = 'safe',
     mod = 'mod',
     cmd = 'cmd',
-    invitelink = 'invitelink', 
-    Addmod = 'addMod', 
-    Removemod = 'removeMod' 
+    invitelink = 'invitelink'
 }
