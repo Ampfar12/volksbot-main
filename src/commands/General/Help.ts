@@ -53,6 +53,14 @@ export default class Command extends BaseCommand {
         return void this.client.sendMessage(M.from, { url: bnh }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption:mn }
+
+        const buttonMessage: any = {
+				footerText: "𓀬volksꦼꦃbot🜲 ",
+				buttons: buttons,
+				headerType: 1,
+			  };
+			  await M.reply(buttonMessage, MessageType.buttonsMessage);
+		; 
         )
     }
 }
