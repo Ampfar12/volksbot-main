@@ -60,7 +60,6 @@ export default class Command extends BaseCommand {
 				headerType: 1,
 			  };
 			  await M.reply(buttonMessage, MessageType.buttonsMessage);
-		; 
         )
     }
 }
