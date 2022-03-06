@@ -43,35 +43,35 @@ My prefix is ${this.client.config.prefix}
 ♦️ Usage: ${this.client.config.prefix}bot
                
 🔰️ 2. *ᴄᴏɴꜰɪɢ ꜱɪᴅᴇ*
-💠️ Description: By using this you will be redirected to user side.
+💠️ Description: By using this you will be redirected to config side.
 ♦️ Usage: ${this.client.config.prefix}config
     
 🔰️ 3. *ᴅᴇᴠ ꜱɪᴅᴇ*
-💠️ Description: By using this you will be redirected to media side
+💠️ Description: By using this you will be redirected to dev side
 ♦️ Usage: ${this.client.config.prefix}dev
 
 🔰️ 4. *ꜰᴜɴ ꜱɪᴅᴇ*
-💠️ Description: By using this you will be redirected to pro ( paid ) side.
+💠️ Description: By using this you will be redirected to fun side.
 ♦️ Usage: ${this.client.config.prefix}fun
 
 🔰️ 5. *ᴇᴅᴜᴄᴀᴛɪᴠᴇ ꜱɪᴅᴇ*
-💠️ Description: By using this you will be redirected to admin side.
+💠️ Description: By using this you will be redirected to Educative side.
 ♦️ Usage: ${this.client.config.prefix}Educative
     
 🔰️ 6. *ɢᴇɴᴇʀᴀʟ ꜱɪᴅᴇ*
-💠️ Description: By using this you will be redirected to anime, manga side.
+💠️ Description: By using this you will be redirected to general side.
 ♦️ Usage: ${this.client.config.prefix}general
 
 🔰️ 7. *ᴍᴇᴅɪᴀ ꜱɪᴅᴇ*
-💠️ Description: By using this you will be redirected to hentai, ecchi, harem side.
+💠️ Description: By using this you will be redirected to media side.
 ♦️ Usage: ${this.client.config.prefix}media
 
 🔰️ 8. *ɴꜱꜰᴡ ꜱɪᴅᴇ*
-💠️ Description: By using this you will be redirected to bot games side.
+💠️ Description: By using this you will be redirected to bot nsfw side.
 ♦️ Usage: ${this.client.config.prefix}nsfw
 
 🔰️ 9. *ᴡᴇᴇʙ ꜱɪᴅᴇ*
-💠️ Description: By using this you will be redirected to bot admins side.
+💠️ Description: By using this you will be redirected to bot weeb side.
 ♦️ Usage: ${this.client.config.prefix}weeb
 
 🔰️ 10. *ᴀᴅᴍɪɴꜱ ꜱɪᴅᴇ*
