@@ -58,6 +58,18 @@ export default class Command extends BaseCommand {
 💠Description: shows your xp
 ♦️Usage:${this.client.config.prefix}xp
 
+🔰Command: *support*
+💠Description: get 𓀬volksꦼꦃbot🜲 group link
+♦️Usage:${this.client.config.prefix}support
+
+🔰Command: *rank*
+💠Description: shows your rank
+♦️Usage:${this.client.config.prefix}rank
+
+🔰Command: *rules*
+💠Description: shows bot rules
+♦️Usage:${this.client.config.prefix}rules
+
   *Note: Use ${this.client.config.prefix}h <command_name> to view the command info*`
         return void this.client.sendMessage(M.from, { url: bnh }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
