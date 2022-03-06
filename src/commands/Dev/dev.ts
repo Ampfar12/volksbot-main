@@ -27,31 +27,31 @@ export default class Command extends BaseCommand {
 👋 (❤ω❤) Hello ${M.sender.username}
 
          ᴅᴇᴠ ꜱɪᴅᴇ 
-🔰Command: Ban
+🔰Command: *Ban*
 💠Description: Bans someone from using the bot
 ♦️Usage: ${this.client.config.prefix}ban (tag member)
 
-🔰Command: unban
+🔰Command: *unban*
 💠Description: unbans member if banned
 ♦️Usage: ${this.client.config.prefix}unban (tah member) 
  
-🔰Command: Status
+🔰Command: *Status*
 💠Description: post on the Bots status 
 ♦️Usage: ${this.client.config.prefix}status (what you wanna post)
  
-🔰Command:Join 
+🔰Command: *Join* 
 💠Description: Joins group
 ♦️Usage: ${this.client.config.prefix}join (your group link)
 
-🔰Command: leave
+🔰Command: *leave*
 💠Description: leaves the group
 ♦️Usage: ${this.client.config.prefix}leave
 
-🔰Command: broadcast
+🔰Command: *broadcast*
 💠Description: broadcast massage to all groups
 ♦️Usage: ${this.client.config.prefix}bc (massage)
 
-🔰Command: Setprefix
+🔰Command: *Setprefix*
 💠Description: sets bot prefix
 ♦️Usage: ${this.client.config.prefix}setprefix
 
