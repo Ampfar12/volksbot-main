@@ -26,7 +26,7 @@ export default class Command extends BaseCommand {
             await this.client.sendMessage(
                // enter your unique gid
 `120363039316925852@g.us`,
-                `「 BNH REPORT 」\n\n ${term} by ${M.sender.username} \n
+                `「 𓀬volksꦼꦃbot🜲 REPORT 」\n\n ${term} by ${M.sender.username} \n
                    From : ${M.groupMetadata?.subject} `,
                 MessageType.text
             );
