@@ -70,6 +70,10 @@ export default class Command extends BaseCommand {
 💠Description: checks Instagram account
 ♦️Usage:${this.client.config.prefix}igstalk (username)
 
+🔰Command: *chess*
+💠Description: play chess
+♦️Usage:${this.client.config.prefix}chess
+
   *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`
         return void this.client.sendMessage(M.from, { url: bnh }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
