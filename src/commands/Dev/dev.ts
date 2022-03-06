@@ -49,7 +49,11 @@ export default class Command extends BaseCommand {
 
 🔰Command: broadcast
 💠Description: broadcast massage to all groups
-♦️Usage: ${this.client.config.prefix}bc (massage) 
+♦️Usage: ${this.client.config.prefix}bc (massage)
+
+🔰Command: Setprefix
+💠Description: sets bot prefix
+♦️Usage: ${this.client.config.prefix}setprefix
 
 
  *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`
