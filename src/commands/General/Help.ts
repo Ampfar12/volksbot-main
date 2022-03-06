@@ -40,48 +40,45 @@ My prefix is ${this.client.config.prefix}
 
 🔰️ 1. *ʙᴏᴛꜱ ꜱɪᴅᴇ*
 💠️ Description: By using this you will be redirected to bot side.
-♦️ Usage: ${this.client.config.prefix} bot
+♦️ Usage: ${this.client.config.prefix}bot
                
 🔰️ 2. *ᴄᴏɴꜰɪɢ ꜱɪᴅᴇ*
 💠️ Description: By using this you will be redirected to user side.
-♦️ Usage: ${this.client.config.prefix} config
+♦️ Usage: ${this.client.config.prefix}config
     
 🔰️ 3. *ᴅᴇᴠ ꜱɪᴅᴇ*
 💠️ Description: By using this you will be redirected to media side
-♦️ Usage: ${this.client.config.prefix} dev
+♦️ Usage: ${this.client.config.prefix}dev
 
 🔰️ 4. *ꜰᴜɴ ꜱɪᴅᴇ*
 💠️ Description: By using this you will be redirected to pro ( paid ) side.
-♦️ Usage: ${this.client.config.prefix} fun
+♦️ Usage: ${this.client.config.prefix}fun
 
 🔰️ 5. *ᴇᴅᴜᴄᴀᴛɪᴠᴇ ꜱɪᴅᴇ*
 💠️ Description: By using this you will be redirected to admin side.
-♦️ Usage: ${this.client.config.prefix} Educative
+♦️ Usage: ${this.client.config.prefix}Educative
     
 🔰️ 6. *ɢᴇɴᴇʀᴀʟ ꜱɪᴅᴇ*
 💠️ Description: By using this you will be redirected to anime, manga side.
-♦️ Usage: ${this.client.config.prefix} general
+♦️ Usage: ${this.client.config.prefix}general
 
 🔰️ 7. *ᴍᴇᴅɪᴀ ꜱɪᴅᴇ*
 💠️ Description: By using this you will be redirected to hentai, ecchi, harem side.
-♦️ Usage: ${this.client.config.prefix} media
+♦️ Usage: ${this.client.config.prefix}media
 
 🔰️ 8. *ɴꜱꜰᴡ ꜱɪᴅᴇ*
 💠️ Description: By using this you will be redirected to bot games side.
-♦️ Usage: ${this.client.config.prefix} nsfw
+♦️ Usage: ${this.client.config.prefix}nsfw
 
 🔰️ 9. *ᴡᴇᴇʙ ꜱɪᴅᴇ*
 💠️ Description: By using this you will be redirected to bot admins side.
-♦️ Usage: ${this.client.config.prefix} weeb
+♦️ Usage: ${this.client.config.prefix}weeb
 
 🔰️ 10. *ᴀᴅᴍɪɴꜱ ꜱɪᴅᴇ*
 💠️ Description: By using this you will be redirected to admins side.
-♦️ Usage: ${this.client.config.prefix} admin
+♦️ Usage: ${this.client.config.prefix}admin
 
-   •━━━ ✽ • ✽ ━━━•
- 
- *Note: Use ${this.client.config.prefix}<Section_name> or <Section_number> to view the section info. E.g ${this.client.config.prefix}bot/1*
-     
+   •━━━ ✽ • ✽ ━━━•   
      
 `
         return void this.client.sendMessage(M.from, { url: bnh }, MessageType.video, {quoted:M.WAMessage,
