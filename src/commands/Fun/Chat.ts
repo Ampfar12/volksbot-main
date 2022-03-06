@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     return void M.reply(res.data.cnt)
                 })
                 .catch(() => {
-                    M.reply(`Type ${this.client.config.prefix}bnh then speak to it...\n `)
+                    M.reply(`Type ${this.client.config.prefix}chat then speak to it...\n `)
                 })
         } else {
             M.reply(`Chat Bot Url not set.`)
