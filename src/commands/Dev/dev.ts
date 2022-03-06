@@ -23,20 +23,33 @@ export default class Command extends BaseCommand {
         ]
         let bnh = n[Math.floor(Math.random() * n.length)]
         const mn=`
-Konnichiwa ${M.sender.username}
-    this is ${this.client.config.prefix}dev
- Shows the dev info
-   
-        「 dev 」
- -「 ${this.client.config.prefix}Ban 」
- -「 ${this.client.config.prefix}Eval 」
- -「 ${this.client.config.prefix}Status 」
- -「 ${this.client.config.prefix}join 」
- -「 ${this.client.config.prefix}leave 」
- -「 ${this.client.config.prefix}unban 」
--「 ${this.client.config.prefix}bc 」
+👋 (❤ω❤) Hello ${M.sender.username}
 
-  *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`
+         ᴅᴇᴠ ꜱɪᴅᴇ 
+🔰Command: Ban
+💠Description: Bans someone from using the bot
+♦️Usage: ${this.client.config.prefix}ban (tag member)
+
+🔰Command: unban
+💠Description: unbans member if banned
+♦️Usage: ${this.client.config.prefix}unban (tah member) 
+ 
+🔰Command: Status
+💠Description: post on the Bots status 
+♦️Usage: ${this.client.config.prefix}status (what you wanna post)
+ 
+🔰Command:Join 
+💠Description: Joins group
+♦️Usage: ${this.client.config.prefix}join (your group link)
+
+🔰Command: leave
+💠Description: leaves the group
+♦️Usage: ${this.client.config.prefix}leave
+
+🔰Command: broadcast
+💠Description: broadcast massage to all groups
+♦️Usage: ${this.client.config.prefix}bc (massage) 
+
         return void this.client.sendMessage(M.from, { url: bnh }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption:mn }
