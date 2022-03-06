@@ -24,6 +24,20 @@ export default class Command extends BaseCommand {
         let bnh = n[Math.floor(Math.random() * n.length)]
         const mn=`
 
+👋 (❤ω❤) Hello ${M.sender.username}   
+*Donate via paypal:*
+https://www.paypal.me/TerminatorRsa
+    
+    
+My name is 𓀬volksꦼꦃbot🜲
+    
+My prefix is ${this.client.config.prefix}
+
+    
+1| *Don't Call* Bots to avoid Blocking.
+    
+2| *Don't Spam* in Groups&Pm to avoid Blocking.
+
 🔰️ 1. *ʙᴏᴛꜱ ꜱɪᴅᴇ*
 💠️ Description: By using this you will be redirected to bot side.
 ♦️ Usage: ${this.client.config.prefix} bot
