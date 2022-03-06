@@ -23,19 +23,40 @@ export default class Command extends BaseCommand {
         ]
         let bnh = n[Math.floor(Math.random() * n.length)]
         const mn=`
-Konnichiwa ${M.sender.username}
-    this is ${this.client.config.prefix}general
- Shows the general info
-   
-        「 General 」
- -「 ${this.client.config.prefix}admin 」
- -「 ${this.client.config.prefix}delete 」
- -「 ${this.client.config.prefix}help 」
- -「 ${this.client.config.prefix}hi 」
- -「 ${this.client.config.prefix}invitelink 」
- -「 ${this.client.config.prefix}mod 」
- -「 ${this.client.config.prefix}profile 」
- -「 ${this.client.config.prefix}xp 」
+ 👋 (❤ω❤) Hello ${M.sender.username}
+
+           ɢᴇɴᴇʀᴀʟ ꜱɪᴅᴇ 
+🔰Command: *admins*
+💠Description:tags admins
+♦️Usage: ${this.client.config.prefix}admin
+
+🔰Command: *delete*
+💠Description: deletes not massage
+♦️Usage: ${this.client.config.prefix}delete
+
+🔰Command: *help*
+💠Description: shows help menu
+♦️Usage:${this.client.config.prefix}help
+
+🔰Command: *bot*
+💠Description: check if bot works
+♦️Usage:${this.client.config.prefix}bot
+
+🔰Command: *Invitelink*
+💠Description: sends group link
+♦️Usage:${this.client.config.prefix}invitelink
+
+🔰Command: *mod*
+💠Description:checks bot admins
+♦️Usage:${this.client.config.prefix}mod
+
+🔰Command: *profile*
+💠Description: shows your profile
+♦️Usage:${this.client.config.prefix}profile
+
+🔰Command: *xp*
+💠Description: shows your xp
+♦️Usage:${this.client.config.prefix}xp
 
   *Note: Use ${this.client.config.prefix}h <command_name> to view the command info*`
         return void this.client.sendMessage(M.from, { url: bnh }, MessageType.video, {quoted:M.WAMessage,
