@@ -6,7 +6,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'hi',
+            command: 'bot',
             description: 'Generally used to check if bot is Up',
             category: 'general',
             usage: `${client.config.prefix}hi`,
@@ -15,6 +15,6 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        return void (await M.reply(`👾 Hello ${M.sender.username}!How can i help you`))
+        return void (await M.reply(` Bot is working fine✅`))
     }
 }
