@@ -24,19 +24,47 @@ export default class Command extends BaseCommand {
         let bnh = n[Math.floor(Math.random() * n.length)]
         const mn=`
 
-👋 (❤ω❤) Hello ${M.sender.username}   
-*Donate via paypal:*
-https://www.paypal.me/TerminatorRsa
+🔰️ 1. *ʙᴏᴛꜱ ꜱɪᴅᴇ*
+💠️ Description: By using this you will be redirected to bot side.
+♦️ Usage: ${this.client.config.prefix} bot
+               
+🔰️ 2. *ᴄᴏɴꜰɪɢ ꜱɪᴅᴇ*
+💠️ Description: By using this you will be redirected to user side.
+♦️ Usage: ${this.client.config.prefix} config
     
-    
-My name is 𓀬volksꦼꦃbot🜲
-    
-My prefix is ${this.client.config.prefix}
+🔰️ 3. *ᴅᴇᴠ ꜱɪᴅᴇ*
+💠️ Description: By using this you will be redirected to media side
+♦️ Usage: ${this.client.config.prefix} dev
 
+🔰️ 4. *ꜰᴜɴ ꜱɪᴅᴇ*
+💠️ Description: By using this you will be redirected to pro ( paid ) side.
+♦️ Usage: ${this.client.config.prefix} fun
+
+🔰️ 5. *ᴇᴅᴜᴄᴀᴛɪᴠᴇ ꜱɪᴅᴇ*
+💠️ Description: By using this you will be redirected to admin side.
+♦️ Usage: ${this.client.config.prefix} Educative
     
-1| *Don't Call* Bots to avoid Blocking.
-    
-2| *Don't Spam* in Groups&Pm to avoid Blocking.
+🔰️ 6. *ɢᴇɴᴇʀᴀʟ ꜱɪᴅᴇ*
+💠️ Description: By using this you will be redirected to anime, manga side.
+♦️ Usage: ${this.client.config.prefix} general
+
+🔰️ 7. *ᴍᴇᴅɪᴀ ꜱɪᴅᴇ*
+💠️ Description: By using this you will be redirected to hentai, ecchi, harem side.
+♦️ Usage: ${this.client.config.prefix} media
+
+🔰️ 8. *ɴꜱꜰᴡ ꜱɪᴅᴇ*
+💠️ Description: By using this you will be redirected to bot games side.
+♦️ Usage: ${this.client.config.prefix} nsfw
+
+🔰️ 9. *ᴡᴇᴇʙ ꜱɪᴅᴇ*
+💠️ Description: By using this you will be redirected to bot admins side.
+♦️ Usage: ${this.client.config.prefix} weeb
+
+🔰️ 10. *ᴀᴅᴍɪɴꜱ ꜱɪᴅᴇ*
+💠️ Description: By using this you will be redirected to admins side.
+♦️ Usage: ${this.client.config.prefix} admin
+
+   •━━━ ✽ • ✽ ━━━•
  
  *Note: Use ${this.client.config.prefix}<Section_name> or <Section_number> to view the section info. E.g ${this.client.config.prefix}bot/1*
      
