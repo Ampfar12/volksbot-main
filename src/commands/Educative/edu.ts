@@ -50,11 +50,13 @@ export default class Command extends BaseCommand {
 💠Description: works like a calculator
 ♦️Usage:${this.client.config.prefix}calculator (sum)
 
-
-
 🔰Command: *ip*
 💠Description: gives more info about ip address
-♦️Usage:${this.client.config.prefix}ip (ip address) 
+♦️Usage:${this.client.config.prefix}ip (ip address)
+
+🔰Command: *urbandictionary*
+💠Description: works like a dictionary
+♦️Usage:${this.client.config.prefix}urbandictionary
 
   *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`
         return void this.client.sendMessage(M.from, { url: bnh }, MessageType.video, {quoted:M.WAMessage,
