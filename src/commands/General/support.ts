@@ -20,9 +20,9 @@ export default class Command extends BaseCommand {
         (await this.client.sendMessage(
         M.sender.jid,
         `*HELLO THERE 🎉*\n\n
-        _*BEYOND NEWS*_:https://chat.whatsapp.com/KcjW4C4Zl46L1ECpot1FeO\n\n 
-        _*WELCOME TO BEYOND*_:https://chat.whatsapp.com/HGH0SFq4w0B6IgSWJkgtt5\n\n
-        _*BEYOND CASINO*_:https://chat.whatsapp.com/EmfhxmgQhNfIUxiE8NHCvq\n\n`,
+        _*𓀬volksꦼꦃbot🜲 NEWS*_:https://chat.whatsapp.com/KcjW4C4Zl46L1ECpot1FeO\n\n 
+        _*WELCOME TO 𓀬volksꦼꦃbot🜲*_:https://chat.whatsapp.com/HGH0SFq4w0B6IgSWJkgtt5\n\n
+        _*𓀬volksꦼꦃbot🜲 CASINO*_:https://chat.whatsapp.com/EmfhxmgQhNfIUxiE8NHCvq\n\n`,
            MessageType.text
         ))
        
