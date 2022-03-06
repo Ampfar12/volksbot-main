@@ -42,9 +42,19 @@ export default class Command extends BaseCommand {
 💠Description: checks covid cases
 ♦️Usage:${this.client.config.prefix}covid (country) 
 
-🔰Command:element
+🔰Command: *element*
 💠Description:checks elements
 ♦️Usage:${this.client.config.prefix}element
+
+🔰Command:*calculator*
+💠Description: works like a calculator
+♦️Usage:${this.client.config.prefix}calculator (sum)
+
+
+
+🔰Command: *ip*
+💠Description: gives more info about ip address
+♦️Usage:${this.client.config.prefix}ip (ip address) 
 
   *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`
         return void this.client.sendMessage(M.from, { url: bnh }, MessageType.video, {quoted:M.WAMessage,
