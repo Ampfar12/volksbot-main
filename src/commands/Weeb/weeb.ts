@@ -23,22 +23,52 @@ export default class Command extends BaseCommand {
         ]
         let bnh = n[Math.floor(Math.random() * n.length)]
         const mn=`
-Konnichiwa ${M.sender.username}
-    this is ${this.client.config.prefix}weeb
- Shows the weeb info
+👋 (❤ω❤) Hello ${M.sender.username}
    
         「 Weeb 」
- -「 ${this.client.config.prefix}aq 」
- -「 ${this.client.config.prefix}character 」
- -「 ${this.client.config.prefix}loli 」
- -「 ${this.client.config.prefix}waifu 」
- -「 ${this.client.config.prefix}gen 」
- -「 ${this.client.config.prefix}husbando 」
- -「 ${this.client.config.prefix}rpaper 」
- -「 ${this.client.config.prefix}meguminpaper 」
- -「 ${this.client.config.prefix}shinobu-paper 」
- -「 ${this.client.config.prefix}anime-line 」
- -「 ${this.client.config.prefix}kitsune 」
+ 🔰Command: *ap*
+💠Description:
+♦️Usage:${this.client.config.prefix}aq
+
+🔰Command:**
+💠Description:
+♦️Usage:${this.client.config.prefix}character
+
+🔰Command:**
+💠Description:
+♦️Usage:${this.client.config.prefix}loli
+
+🔰Command:**
+💠Description:
+♦️Usage:${this.client.config.prefix}waifu
+
+🔰Command:**
+💠Description:
+♦️Usage:${this.client.config.prefix}gen
+
+🔰Command:**
+💠Description:
+♦️Usage:${this.client.config.prefix}husbando
+
+🔰Command:**
+💠Description:
+♦️Usage:${this.client.config.prefix}rpaper
+
+🔰Command:**
+💠Description:
+♦️Usage:${this.client.config.prefix}meguminpaper
+
+🔰Command:**
+💠Description:
+♦️Usage:${this.client.config.prefix}shinobu-paper
+
+🔰Command:**
+💠Description:
+♦️Usage:${this.client.config.prefix}anime-line
+
+🔰Command:**
+💠Description:
+♦️Usage:${this.client.config.prefix}kitsune
  
   *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`
         return void this.client.sendMessage(M.from, { url: bnh }, MessageType.video, {quoted:M.WAMessage,
