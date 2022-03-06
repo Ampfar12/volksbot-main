@@ -25,8 +25,7 @@ export default class Command extends BaseCommand {
         const mn=`
 👋 (❤ω❤) Hello ${M.sender.username} 
  
-       ᴇᴅᴜᴄᴀᴛɪᴠᴇ ꜱɪᴅᴇ
-
+        ᴇᴅᴜᴄᴀᴛɪᴠᴇ ꜱɪᴅᴇ
 🔰Command: *crypto*
 💠Description:shows crypto prices
 ♦️Usage: ${this.client.config.prefix}crypto
