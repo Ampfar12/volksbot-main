@@ -8,7 +8,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'moderation',
+            command: 'admin',
             description: 'shows fun section',
             category: 'moderation',
             usage: `${client.config.prefix}help (command_name)`,
